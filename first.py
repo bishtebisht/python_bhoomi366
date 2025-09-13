@@ -123,15 +123,15 @@
 #SEQUENCE DATA TYPES- LIST , TUPLE , RANGE
  
 #list
-l=["bhoomi",19,"16-may-2006","BTech"]
-tiny_l=["CSE",14]
-print(type(l))
-print(l)
-print(l[0])
-print(l[1:3])
-print(l[2:])
-print(tiny_l *2)
-print(l+tiny_l)
+# l=["bhoomi",19,"16-may-2006","BTech"]
+# tiny_l=["CSE",14]
+# print(type(l))
+# print(l)
+# print(l[0])
+# print(l[1:3])
+# print(l[2:])
+# print(tiny_l *2)
+# print(l+tiny_l)
 #output
 # <class 'list'>
 # ['bhoomi', 19, '16-may-2006', 'BTech']
@@ -142,15 +142,15 @@ print(l+tiny_l)
 # ['bhoomi', 19, '16-may-2006', 'BTech', 'CSE', 14]
 
 #tuple
-tup=("abcd",789,4.56,"john",20+8j)
-tiny_tup=(123,"hello")
-print(type(tup))
-print(tup)
-print(tup[0])
-print(tup[1:3])
-print(tup[2:])
-print(tiny_tup *2)
-print(tup+tiny_tup)
+# tup=("abcd",789,4.56,"john",20+8j)
+# tiny_tup=(123,"hello")
+# print(type(tup))
+# print(tup)
+# print(tup[0])
+# print(tup[1:3])
+# print(tup[2:])
+# print(tiny_tup *2)
+# print(tup+tiny_tup)
 #output
 # <class 'tuple'>
 # ('abcd', 789, 4.56, 'john', (20+8j))
@@ -161,8 +161,43 @@ print(tup+tiny_tup)
 # ('abcd', 789, 4.56, 'john', (20+8j), 123, 'hello')
 
 #range(start,stop,step)
-for i in range(5):
-    print(i)   #01234
+# for i in range(5):
+#     print(i)   #01234
 
-for i in range(1,10,2):
-    print(i)   #13579
+# for i in range(1,10,2):
+#     print(i)   #13579
+
+#INPUT
+# n=int(input(""))
+# print(n)  
+# print(type(n))
+
+# a=5
+# b=10
+# if a>b:
+#     print(a," is greater than ", b)
+# elif a==b:
+#     print("both are equal")
+# else :
+#     print(b," is greater than ",a)
+    
+#SHORTHAND
+# print(f"{a} is greater than {b}") if a>b else print(f"{b} is greater than {a}")
+
+#MATCH
+# month=5
+# day=5
+# match day:
+#     case 1|2|3|4|5 if month ==5:
+#         print("weekday")
+#     case _:
+#         print("weekend")
+        
+        
+# i=4
+# n=int(input("guess the number:"))
+# if(n==i):
+#     print("u guessed it right!!")
+# else:
+#     print("u guessed it wrong!!")
+
